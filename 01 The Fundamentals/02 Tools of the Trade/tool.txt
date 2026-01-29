@@ -1,0 +1,16 @@
+Any editor
+    vs code ->tool editor
+    antigarviti ->tool editor
+
+for usngin php or my sql 
+    xampp ->tool
+    laragon ->tool
+
+fro command line
+    normal  windows command 
+    wamp ->tool
+
+
+fro my sql 
+    phpmyadmin
+    tableplus ->tool
