@@ -5,7 +5,7 @@ $heading = 'Create Note';
 
 // dd($_SERVER);
 
-if  ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     // dd($_POST);
 
