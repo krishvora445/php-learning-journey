@@ -1,0 +1,31 @@
+{
+    "name": "krish/02installtwocomposerpackages_collectionsandpest-php",
+    "authors": [
+        {
+            "name": "krish",
+            "email": "vora76637@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^12.49"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^4.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

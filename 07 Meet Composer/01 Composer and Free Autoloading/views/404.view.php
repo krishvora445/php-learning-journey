@@ -1,0 +1,14 @@
+<?php require base_path('views/partials/head.php') ?>
+
+<?php require base_path('views/partials/nav.php') ?>
+
+<?php require base_path('views/partials/banner.php') ?>
+
+  <main> 
+    <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+      <p class="text-red-500 text-3xl">404 Sorry. Page not found. </p>
+      <a class="text-blue-500 underline mt-4" href="/">Go Home</a>
+    </div>
+  </main>
+
+<?php require base_path('views/partials/footer.php') ?>
