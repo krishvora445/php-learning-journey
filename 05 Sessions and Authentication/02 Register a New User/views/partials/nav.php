@@ -11,7 +11,7 @@
                     <div class="ml-10 flex items-baseline space-x-4">
                         <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
                         <a href="/" aria-current="page" class=" <?php echo urlIs('/') ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white'; ?> rounded-md   px-3 py-2 text-sm font-medium text-white">Home</a>
-                        <?php if ($_SESSION['user_id'] ?? false) : ?>
+                        <?php if ($_SESSION['user'] ?? false) : ?>
                             <a href="/notes" aria-current="page" class=" <?php echo urlIs('/notes') ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white'; ?> rounded-md   px-3 py-2 text-sm font-medium text-white">Notes</a>
                         <?php endif;?>
                         <a href="/team" class="<?php echo urlIs('/team') ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white'; ?> rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Team</a>

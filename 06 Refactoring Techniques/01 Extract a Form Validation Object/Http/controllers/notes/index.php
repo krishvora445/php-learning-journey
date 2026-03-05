@@ -1,0 +1,15 @@
+<?php
+
+use Core\App;
+use Core\Database;
+
+//dd($_SESSION);
+
+$db = App::resolve(Database::class);
+
+$notes = $db->query("select * from notes where user_id = 1")->get();
+
+view('notes/index', [
+    'heading' => 'My Notes',
+    'notes' => $notes
+]);
